@@ -1,0 +1,7 @@
+discord
+gensim
+janome
+numpy
+random
+warnings
+time
