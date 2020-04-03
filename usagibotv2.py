@@ -11,10 +11,6 @@ import random
 import warnings
 import time
 
-"""
-PuTTyKey:
-8UH3T3WWza1t8CfGqFE0vZXX5qHb8aJp1RTox9WlEtSHAxSAhReoTBbbN7U2tY3Y3R4BbOLuH+641b0ycYTq8jJfbSx2bRjH4dIQy3+tkV0QI39SqRmWlHcePe3ZMKM0cE2uc2vrbcjbKQhDCL2XFGQirYz8t4r4teTxXVA8zEUlkqlv8grxfhat4O7y+76lVZjpJNSeTEfwQ== usagibotv2
-"""
 
 warnings.simplefilter('ignore')
 client = discord.Client()
@@ -45,7 +41,7 @@ dictionary = corpora.Dictionary(text_processed)
 async def on_message(message):
     if not message.author.id == client.user.id:
         #await client.send_message(message.channel, message.content)
-        await message.channel.send("ふむ、なるほどね。(20秒くらい待ってね..(˘ω˘)..)")
+        await message.channel.send("ふむ、なるほどね。")
 
 
     target = message.content
